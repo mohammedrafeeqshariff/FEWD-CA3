@@ -1,0 +1,389 @@
+body{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+    background-color:  #2e8b57  ;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title_image{
+    width:25%;
+    display: block;
+    margin: auto;
+
+}
+#description{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+#description_text{
+    color: #D2B48C;
+    font-size: large;
+    font-weight: 600;
+    line-height: 140%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+#random_image{
+    width :25%;
+    background-color: #ffffff;
+    padding: 1%;
+    border-radius: 5%;
+    display: block;
+    margin: auto;
+}
+#mealName{
+    min-width:fit-content;
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding:1% 1% ;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color: #ffb555;
+
+}
+#mealCategory{
+    width :10%;
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    color: #ffb555;
+}
+.randomDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0% 2% ;
+}
+.randomDiv div{
+    font-size: x-large;
+    padding: 0.5%;
+    margin: 2% 2% 2% 2%;
+    background-color: #9dffc7;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    border: 2px solid;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.randomDiv div:hover{
+    background-color: #a75f00;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.4s;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+
+#randomFoodIngredients{
+    position:absolute;
+    top: 55%;
+    left: 39.7%;
+    background-color: #D2B48C;
+    text-align: center;
+    min-width:20% ;
+    border: 4px solid rgb(37, 35, 35);
+    z-index: 1;
+}
+.search-bar{
+    width: 20%;
+    font-size: xx-large;
+    display: block;
+    margin: auto;
+    padding: 0.5%;
+}
+.search-bar-container{
+    padding: 2% 2%;
+}
+.close{
+    font-size: medium;
+    margin: 2% 2% 2% 2%;
+    background-color: #9dffc7;
+    border: 2px solid;
+    cursor: pointer;
+}
+.close:hover{
+    background-color: #a75f00;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.4s;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.recipieBtn{
+    font-size: medium;
+    margin: 2% 2% 2% 2%;
+    background-color: #9dffc7;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+.recipieBtn:hover{
+    background-color: #a75f00;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.4s;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+#ingredientsModal b{
+    font-size: larger;
+    color: #037333;
+}
+#ingredientsModal{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.searched_category{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.searched_category div{
+    text-align: center;
+    margin: 5% 10%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 10px 20px 30px;
+    background-color: white;
+}
+
+
+.searched_category img{
+    height: 40vh;
+    width: 40vh;
+    padding: 3% 3%;
+}
+
+.searched_category p{
+    font-size: larger;
+    font-weight: 800;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.searched_category div:hover{
+    scale: 1.1;
+    transition: .5s;
+}
+
+
+#status{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffb555;
+    padding:2% 3% ;
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+}
+
+
+@media all and (width <= 426px) {
+    body{
+        margin: 0%;
+        box-sizing: border-box;
+        padding: 0%;
+        background-color:#2e8b57 ;
+    }
+    
+    #buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #title_image{
+        width:50%;
+        display: block;
+        margin: auto;
+    
+    }
+    #description{
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+    #description_text{
+        color: #D2B48C;
+        font-size: small;
+        font-weight: 600;
+        line-height: 140%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #search{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* padding: 5%; */
+    }
+    #random_image{
+        min-width:fit-content;
+        background-color: #ffffff;
+        padding:2%;
+        border-radius: 5%;
+        display: block;
+        margin: auto;
+    }
+    #mealName{
+        min-width:fit-content;
+        display: block;
+        text-align: center;
+        margin: auto;
+        padding:3% 4% ;
+        font-size: medium;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 900;
+        color: #ffb555;
+    
+    }
+    #mealCategory{
+        width :25%;
+        display: block;
+        text-align: center;
+        padding:3% 3% ;
+        margin: auto;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: larger;
+        color: #ffb555;
+    }
+    .randomDiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding:0% 2% ;
+    }
+    .randomDiv div{
+        font-size: large;
+        padding: 0.5%;
+        margin: 2% 2% 2% 2%;
+        background-color: #9dffc7;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+        border: 2px solid;
+        border-radius: 10%;
+    }
+    .randomDiv div:hover{
+        background-color: #a75f00;
+        color: white;
+        transform: scale(1.1);
+        transition: 0.4s;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    }
+    
+    
+    #randomFoodIngredients{
+        position:absolute;
+        top: 48%;
+        left: 15%;
+        background-color: #D2B48C;
+        text-align: center;
+        width:70% ;
+        border: 4px solid rgb(37, 35, 35);
+        z-index: 1;
+    }
+    .search-bar{
+        width: 20%;
+        font-size: large;
+        display: block;
+        margin: auto;
+        padding: 0.5%;
+    }
+    .search-bar-container{
+        padding: 2% 2%;
+    }
+    .close{
+        font-size: medium;
+        margin: 2% 2% 2% 2%;
+        background-color: #9dffc7;
+        border: 2px solid;
+    }
+    .close:hover{
+        background-color: #a75f00;
+        color: white;
+        transform: scale(1.1);
+        transition: 0.4s;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    }
+    
+    .recipieBtn{
+        font-size: medium;
+        margin: 2% 2% 2% 2%;
+        background-color: #9dffc7;
+        border: 2px solid;
+    }
+    
+    .recipieBtn:hover{
+        background-color: #a75f00;
+        color: white;
+        transform: scale(1.1);
+        transition: 0.4s;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    }
+    
+    #ingredientsModal b{
+        font-size: small;
+        
+        color: #037333;
+    }
+    #ingredientsModal{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: small;
+    }
+    .searched_category{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .searched_category div{
+        text-align: center;
+        margin: 5% 10%;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 10px 20px 30px;
+        background-color: white;
+    }
+    
+    
+    .searched_category img{
+        height: 40vh;
+        width: 40vh;
+        padding: 3% 3%;
+    }
+    
+    .searched_category p{
+        font-size: larger;
+        font-weight: 800;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    }
+    
+    .searched_category div:hover{
+        scale: 1.1;
+        transition: .5s;
+    }
+    
+    
+    #status{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #ffb555;
+        padding:2% 3% ;
+        font-size: 45px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 800;
+    }
+
+}
